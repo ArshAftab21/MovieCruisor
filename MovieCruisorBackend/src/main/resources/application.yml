@@ -1,0 +1,14 @@
+server:
+  port: 1111
+spring:
+  datasource:
+    url: ${MYSQL_CI_URL}
+    username: ${MYSQL_USER}
+    password: ${MYSQL_PASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+    
+    
